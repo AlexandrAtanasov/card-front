@@ -3,13 +3,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
-    <div>
-      <p>Тут будет:</p>
-      <ul>
-        <li>Регистрация, авторизация</li>
-        <li>Шапка сайта</li>
-        <li>Карточки с наполнением</li>
-      </ul>
+    <div className='container'>
+      <div className="jumbotron">
+        <h1 className="display-4">Тут будет форма авторизации и регистрации</h1>
+      </div>
     </div>
   );
 }
